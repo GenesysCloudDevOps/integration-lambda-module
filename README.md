@@ -10,7 +10,7 @@ Shown below is an example of how to configure the remote module.
 
 ```hcl
 module "lambda_integration" {
-   source             = "git::https://https://github.com/GenesysCloudDevOps/integration-lambda-module.git?ref=main"
+   source             = "git::https://github.com/GenesysCloudDevOps/integration-lambda-module.git?ref=main"
    environment                       = "dev"
    prefix                            = "dude-order-status"
    data_integration_trusted_role_arn = ""<<YOUR AWS ARN TRUSTED ROLE HERE>>
