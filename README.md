@@ -34,9 +34,7 @@ The above snippet will create a Genesys Cloud integration called dev-dude-order-
 
 
 ## Inputs
-   environment                       = "dev"
-   prefix                            = "dude-order-status"
-   data_integration_trusted_role_arn = ""<<YOUR AWS ARN TRUSTED ROLE HERE>>
+
 | Name | Description | Type | Required |
 |------|-------------|------|:--------:|
 | <a name="environment"></a> [environment](#environment)  |  A string value used in the naming conventions to indicate what environment this lambda integration for.| `string` | yes |
