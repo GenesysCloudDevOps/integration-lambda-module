@@ -38,7 +38,7 @@ The above snippet will create a Genesys Cloud integration called dev-dude-order-
 | Name | Description | Type | Required |
 |------|-------------|------|:--------:|
 | <a name="environment"></a> [environment](#environment)  |  A string value used in the naming conventions to indicate what environment this lambda integration for.| `string` | yes |
-| <a name="prefix"></a> [prefix](#prefix) |  Name put in front of the integration created. The created name will you the environment and the prefix to create an integration call <<environment>>-<<prefix>>-Lambda-Integration | `string` | yes |
+| <a name="prefix"></a> [prefix](#prefix) |  Name put in front of the integration created. The created name will you the environment and the prefix to create an integration call `<<environment>>-<<prefix>>-Lambda-Integration` | `string` | yes |
 | <a name="data_integration_trusted_role_arn"></a> [data_integration_trusted_role_arn](#data\_\integration\_\trusted\_\role\_\arn) | The AWS arn for the trusted IAM role that will be assumed by Genesys Cloud when it invokes your Lambda. | `string` | yes |
 
 # Outputs
